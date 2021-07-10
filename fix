@@ -1,0 +1,114 @@
+--[[ Scripts are seperated by the space between them all.
+This is not final, more scripts will be added.
+We've had to put all the scripts in this one text file because discord breaks loadstrings.
+Join https://discord.gg/ShZCyqGxSV
+]]--
+
+
+
+
+
+
+
+
+
+-- RSU GUI
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AvexcitalScripts/RSU-GUI/main/message%20(2).txt')()
+
+
+
+
+
+
+
+
+-- AVEXCITAL SCRIPT HUB
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AvexcitalScripts/RSU-GUI/main/avexcital%203.0.0.txt')()
+
+
+
+
+-- DELETES OPSA'S ANTI CHEAT
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AvexcitalScripts/RSU-GUI/main/opsadelete')()
+
+
+
+
+
+-- INFINITE TPS STAMINA
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AvexcitalScripts/RSU-GUI/main/stamina')()
+
+
+
+
+-- TPSF NAMETAG (CHANGE THE VALUE OF  [1] = "(9999999999999999) fuck penis shit" TO ANYTHING YOU WANT
+
+local args = {
+    [1] = "(9999999999999999) fuck penis shit"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.NameTag:FireServer(unpack(args))
+
+
+
+
+
+
+-- tpsf ball flinger (theres a cool down)
+
+local args = {
+    [1] = workspace.TPSSystem.TPS,
+    [2] = Vector3.new(-24.209814071655, 13.928740501404, -81.602310180664),
+    [3] = Vector3.new(math.huge, 910, math.huge),
+    [4] = "CurveR"
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.React:FireServer(unpack(args))
+
+
+
+-- tpsf infinite match rating ez motm
+
+local args = {
+    [1] = 99999999999
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.PlayerPoints:FireServer(unpack(args))
+
+
+
+
+
+-- TPSF INFINITE XP (REJOIN FOR YOUR LEVEL TO GO BOOM)
+
+local args = {
+    [1] = 999999999999999999
+}
+
+game:GetService("ReplicatedStorage").RemoteEvents.XPGain:FireServer(unpack(args))
+
+
+
+
+-- TPSF XP GRINDER
+
+while true do
+    local args = {
+                    [1] = 1000
+                }
+
+                game.ReplicatedStorage.RemoteEvents.Save:FireServer(unpack(args))
+    wait() 
+end
+
+
+
+-- TPSF INSTANT LEVEL 100
+
+local args = {
+                    [1] = 100
+                }
+
+                game.ReplicatedStorage.RemoteEvents.Level:FireServer(unpack(args))
+
+
