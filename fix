@@ -7,7 +7,8 @@ Join https://discord.gg/ShZCyqGxSV
 
 
 
-
+-- TPS REACT SCRIPT
+loadstring(game:HttpGet('https://raw.githubusercontent.com/AvexcitalScripts/RSU-GUI/main/REACT')()
 
 
 
